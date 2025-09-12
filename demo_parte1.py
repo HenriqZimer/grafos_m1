@@ -298,10 +298,6 @@ def demonstrar_comparacao_representacoes():
 
 def main():
     """Função principal da demonstração"""
-    print("🎯 DEMONSTRAÇÃO PARTE 1 - FUNCIONALIDADES BÁSICAS DE GRAFOS")
-    print("Implementação conforme slides S02 - Conceitos Básicos e Representação")
-    print("Autor: Henrique Zimermann")
-    print("Data: 12 de setembro de 2025")
     
     # Executar todas as demonstrações
     demonstrar_construtor()
@@ -311,26 +307,6 @@ def main():
     demonstrar_remocao_vertices()
     demonstrar_estrutura_aresta()
     demonstrar_comparacao_representacoes()
-    
-    print("\n\n" + "="*80)
-    print("✅ DEMONSTRAÇÃO CONCLUÍDA COM SUCESSO!")
-    print("="*80)
-    print("\n📋 RESUMO DAS FUNCIONALIDADES IMPLEMENTADAS:")
-    print("   ✓ Classe base Grafo com construtor direcionado/ponderado")
-    print("   ✓ Especialização GrafoMatriz (matriz de adjacência)")
-    print("   ✓ Especialização GrafoLista (lista de adjacência + Aresta)")
-    print("   ✓ inserirVertice(label) - ambas representações")
-    print("   ✓ removerVertice(indice) - ambas representações")
-    print("   ✓ labelVertice(indice) - ambas representações")
-    print("   ✓ imprimeGrafo() - ambas representações")
-    print("   ✓ inserirAresta(origem, destino, peso) - ambas representações")
-    print("   ✓ removerAresta(origem, destino) - ambas representações")
-    print("   ✓ existeAresta(origem, destino) - ambas representações")
-    print("   ✓ Estrutura Aresta auxiliar para GrafoLista")
-    print("   ✓ Suporte completo a grafos direcionados/não direcionados")
-    print("   ✓ Suporte completo a grafos ponderados/não ponderados")
-    print("\n🎉 Todas as funcionalidades dos slides S02 foram implementadas!")
-
 
 if __name__ == "__main__":
     main()

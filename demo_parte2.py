@@ -160,39 +160,6 @@ def main():
         
     except Exception as e:
         print(f"  ERRO: {e}")
-    
-    # ========================================
-    # CONCLUSÃO
-    # ========================================
-    separador("CONCLUSÃO - VERIFICAÇÃO DOS REQUISITOS")
-    
-    print("✅ REQUISITO 1: Leitura de arquivos - ATENDIDO")
-    print("   • Formato V A D P implementado corretamente")
-    print("   • Carregamento de grafos direcionados/não direcionados")
-    print("   • Carregamento de grafos ponderados/não ponderados")
-    print()
-    print("✅ REQUISITO 2: Busca em Largura (BFS) - ATENDIDO") 
-    print("   • Algoritmo implementado corretamente")
-    print("   • Imprime ordem de visitação dos vértices")
-    print("   • Visita todos os vértices alcançáveis")
-    print()
-    print("✅ REQUISITO 3: Busca em Profundidade (DFS) - ATENDIDO")
-    print("   • Algoritmo implementado corretamente") 
-    print("   • Imprime ordem de visitação dos vértices")
-    print("   • Visita todos os vértices alcançáveis")
-    print()
-    print("✅ REQUISITO 4: Algoritmo de Dijkstra - ATENDIDO")
-    print("   • Algoritmo implementado corretamente")
-    print("   • Calcula distâncias mínimas e caminhos")
-    print("   • Funciona com grafos ponderados e não ponderados")
-    print()
-    print("✅ REQUISITO 5: Dupla Representação - ATENDIDO")
-    print("   • Lista e matriz de adjacência mantidas sincronizadas")
-    print("   • Algoritmos funcionam com a mesma implementação")
-    print("   • Eficiência mantida usando lista de adjacência")
-    print()
-    print("🎯 CONCLUSÃO: TODOS OS REQUISITOS DA PARTE 2 FORAM ATENDIDOS")
-    print("   A implementação está completa e funcional.")
 
 if __name__ == "__main__":
     main()
