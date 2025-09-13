@@ -18,15 +18,15 @@ parte2:
 
 slides:
 	@echo "Demonstracao com slides.txt..."
-	@$(PYTHON) demo_parte2.py
+	@$(PYTHON) demo_slides.py
 
 slides_mod:
 	@echo "Demonstracao com slides_modificado.txt..."
-	@$(PYTHON) demo_parte2.py
+	@$(PYTHON) demo_slides_mod.py
 
 espacoaereo:
 	@echo "Demonstracao com espacoaereo.txt..."
-	@$(PYTHON) demo_parte2.py
+	@$(PYTHON) demo_espacoaereo.py
 
 data_all: slides slides_mod espacoaereo
 
