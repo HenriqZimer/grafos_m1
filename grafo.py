@@ -15,10 +15,15 @@ class Grafo:
                 self.inserir_vertice(str(i))  
             
             for _ in range(num_arestas):
-                aresta_info = arquivo.readline().strip().split()
+                linha = arquivo.readline().strip()
+                if not linha:  # Pula linhas vazias
+                    continue
+                aresta_info = linha.split()
+                if len(aresta_info) < 2:  # Verifica se tem pelo menos 2 valores
+                    continue
                 origem = int(aresta_info[0])
                 destino = int(aresta_info[1])
-                peso = int(aresta_info[2]) if self.ponderado else 1  
+                peso = int(aresta_info[2]) if self.ponderado and len(aresta_info) > 2 else 1  
 
                 self.inserir_aresta(origem, destino, peso)
 

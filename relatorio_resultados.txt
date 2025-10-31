@@ -1,0 +1,275 @@
+====================================================================================================
+                              RELATÓRIO DE RESULTADOS
+                    Trabalho de Grafos - Módulo 2
+====================================================================================================
+
+1. ÁRVORE GERADORA MÍNIMA (MST)
+====================================================================================================
+
+Instância: 1000vertices25%Arestas.txt
+  - Vértices: 1000
+  - Arestas: 125117
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 4112
+    • Tempo de execução: 0.194782 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 4112
+    • Tempo de execução: 0.057788 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 500vertices100%Arestas.txt
+  - Vértices: 500
+  - Arestas: 124750
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 894
+    • Tempo de execução: 0.180264 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 894
+    • Tempo de execução: 0.031699 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 500vertices25%Arestas.txt
+  - Vértices: 500
+  - Arestas: 31130
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 4684
+    • Tempo de execução: 0.043236 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 4684
+    • Tempo de execução: 0.013454 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 500vertices50%Arestas.txt
+  - Vértices: 500
+  - Arestas: 62416
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 2155
+    • Tempo de execução: 0.091991 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 2155
+    • Tempo de execução: 0.020653 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 50vertices100%Arestas.txt
+  - Vértices: 50
+  - Arestas: 1225
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 867
+    • Tempo de execução: 0.001159 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 867
+    • Tempo de execução: 0.000263 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 50vertices25%Arestas.txt
+  - Vértices: 50
+  - Arestas: 304
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 5339
+    • Tempo de execução: 0.000358 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 5339
+    • Tempo de execução: 0.000116 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: 50vertices50%Arestas.txt
+  - Vértices: 50
+  - Arestas: 603
+
+  Algoritmo de Kruskal:
+    • Peso total da MST: 2770
+    • Tempo de execução: 0.000784 segundos
+
+  Algoritmo de Prim:
+    • Peso total da MST: 2770
+    • Tempo de execução: 0.000154 segundos
+
+----------------------------------------------------------------------------------------------------
+
+
+TABELA RESUMO - MST (Kruskal)
+----------------------------------------------------------------------------------------------------
+Instância                                  Vértices    Arestas      Peso Total    Tempo (s)
+----------------------------------------------------------------------------------------------------
+1000vertices25%Arestas.txt                     1000     125117            4112     0.194782
+500vertices100%Arestas.txt                      500     124750             894     0.180264
+500vertices25%Arestas.txt                       500      31130            4684     0.043236
+500vertices50%Arestas.txt                       500      62416            2155     0.091991
+50vertices100%Arestas.txt                        50       1225             867     0.001159
+50vertices25%Arestas.txt                         50        304            5339     0.000358
+50vertices50%Arestas.txt                         50        603            2770     0.000784
+----------------------------------------------------------------------------------------------------
+
+
+
+2. COLORAÇÃO DE GRAFOS
+====================================================================================================
+
+Instância: C4000-260-X.txt
+  - Vértices: 4000
+  - Arestas: 4000268
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 394
+    • Tempo de execução: 2.271981 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 401
+    • Tempo de execução: 4.625270 segundos
+
+  Heurística Simples:
+    • Número de cores: 402
+    • Tempo de execução: 1.323235 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: k33.txt
+  - Vértices: 6
+  - Arestas: 9
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 2
+    • Tempo de execução: 0.000021 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 2
+    • Tempo de execução: 0.000044 segundos
+
+  Heurística Simples:
+    • Número de cores: 2
+    • Tempo de execução: 0.000023 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: k5.txt
+  - Vértices: 5
+  - Arestas: 10
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 5
+    • Tempo de execução: 0.000011 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 5
+    • Tempo de execução: 0.000015 segundos
+
+  Heurística Simples:
+    • Número de cores: 5
+    • Tempo de execução: 0.000005 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: kquase5.txt
+  - Vértices: 5
+  - Arestas: 9
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 4
+    • Tempo de execução: 0.000009 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 4
+    • Tempo de execução: 0.000057 segundos
+
+  Heurística Simples:
+    • Número de cores: 4
+    • Tempo de execução: 0.000008 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: r1000-234-234.txt
+  - Vértices: 1000
+  - Arestas: 238267
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 259
+    • Tempo de execução: 0.086249 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 250
+    • Tempo de execução: 0.183940 segundos
+
+  Heurística Simples:
+    • Número de cores: 275
+    • Tempo de execução: 0.058013 segundos
+
+----------------------------------------------------------------------------------------------------
+
+Instância: r250-66-65.txt
+  - Vértices: 250
+  - Arestas: 13909
+
+  Algoritmo Welsh-Powell:
+    • Número de cores: 68
+    • Tempo de execução: 0.009178 segundos
+
+  Algoritmo DSATUR:
+    • Número de cores: 67
+    • Tempo de execução: 0.014338 segundos
+
+  Heurística Simples:
+    • Número de cores: 75
+    • Tempo de execução: 0.002828 segundos
+
+----------------------------------------------------------------------------------------------------
+
+
+TABELA RESUMO - COLORAÇÃO
+----------------------------------------------------------------------------------------------------------------------------------
+Instância                        Vértices    Arestas    Welsh-Powell     DSATUR   Heur. Simples     Melhor
+----------------------------------------------------------------------------------------------------------------------------------
+C4000-260-X.txt                      4000    4000268             394        401             402        394
+k33.txt                                 6          9               2          2               2          2
+k5.txt                                  5         10               5          5               5          5
+kquase5.txt                             5          9               4          4               4          4
+r1000-234-234.txt                    1000     238267             259        250             275        250
+r250-66-65.txt                        250      13909              68         67              75         67
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+3. ANÁLISE COMPARATIVA
+====================================================================================================
+
+3.1. MST - Kruskal vs Prim
+----------------------------------------------------------------------------------------------------
+1000vertices25%Arestas.txt               Mais rápido:     Prim (diferença: 0.136993s)
+500vertices100%Arestas.txt               Mais rápido:     Prim (diferença: 0.148565s)
+500vertices25%Arestas.txt                Mais rápido:     Prim (diferença: 0.029782s)
+500vertices50%Arestas.txt                Mais rápido:     Prim (diferença: 0.071338s)
+50vertices100%Arestas.txt                Mais rápido:     Prim (diferença: 0.000896s)
+50vertices25%Arestas.txt                 Mais rápido:     Prim (diferença: 0.000242s)
+50vertices50%Arestas.txt                 Mais rápido:     Prim (diferença: 0.000630s)
+
+
+3.2. Coloração - Comparação de Algoritmos
+----------------------------------------------------------------------------------------------------
+C4000-260-X.txt                Melhor resultado:         Welsh-Powell (394 cores)
+k33.txt                        Melhor resultado:         Welsh-Powell (2 cores)
+k5.txt                         Melhor resultado:         Welsh-Powell (5 cores)
+kquase5.txt                    Melhor resultado:         Welsh-Powell (4 cores)
+r1000-234-234.txt              Melhor resultado:               DSATUR (250 cores)
+r250-66-65.txt                 Melhor resultado:               DSATUR (67 cores)
+
+
+====================================================================================================
+Fim do relatório
+====================================================================================================
